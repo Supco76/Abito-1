@@ -3,11 +3,23 @@ body {
    color: #0a143a;
    font-size: 14px;
 }
-
-.header {
+.container {
    max-width: 1146px;
    margin: auto;
+}
+.page-title {
+   font-weight: bold;
+   font-size: 24px;
+   line-height: 28px;
+
+   color: #0a143a;
+   margin-bottom: 25px;
+}
+
+.header {
    padding-top: 30px;
+   padding-bottom: 30px;
+   margin-bottom: 12px;
 }
 .container__row {
    display: flex;
@@ -73,4 +85,110 @@ body {
 }
 .search-button-text {
    margin-left: 5px;
+}
+.page-content {
+   display: grid;
+   grid-template-columns: 9fr 3fr;
+   grid-column-gap: 30px;
+}
+.cards {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+}
+.card-image {
+   border-radius: 10px;
+   width: 264px;
+   height: 178;
+   object-fit: cover;
+}
+
+.card-title {
+   font-weight: bold;
+   font-size: 16px;
+   line-height: 19px;
+   color: #256eeb;
+   margin-top: 12px;
+   margin-bottom: 5px;
+}
+.card {
+   margin-bottom: 20px;
+}
+.card-header {
+   max-width: 261px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.like {
+   background: #fff;
+   color: #c4c4c4;
+   border: none;
+   cursor: pointer;
+   margin-left: 15px;
+}
+.card-price {
+   display: block;
+   font-weight: bold;
+   font-size: 16px;
+   line-height: 19px;
+   color: #0a143a;
+   margin-bottom: 10px;
+}
+.card-link {
+   text-decoration: none;
+}
+.card-text {
+   font-size: 14px;
+   line-height: 16px;
+   color: #c4c4c4;
+   margin-bottom: 4px;
+   margin-top: 0;
+}
+.page-title-1 {
+   font-weight: bold;
+   font-size: 18px;
+   line-height: 21px;
+   color: #0a143a;
+}
+.service {
+   margin-bottom: 25px;
+}
+
+.service-title {
+   margin-top: 7px;
+   margin-bottom: 5px;
+   font-weight: bold;
+   font-size: 14px;
+   line-height: 16px;
+   color: #0a143a;
+}
+.service-text {
+   font-size: 14px;
+   line-height: 16px;
+
+   color: #0a143a;
+   max-width: 217px;
+}
+.footer-text {
+   display: inline-block;
+   font-size: 14px;
+   line-height: 16px;
+   color: #c4c4c4;
+   margin-bottom: 5px;
+}
+.footer-menu {
+   margin: 0;
+   padding: 0;
+   list-style: none;
+   margin-bottom: 16px;
+}
+.footer-link {
+   font-size: 12px;
+   line-height: 14px;
+   color: #000000;
+   text-decoration: none;
+   display: inline-block;
+
+   margin-bottom: 5px;
 }
